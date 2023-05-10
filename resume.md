@@ -227,6 +227,14 @@ Yahoo Photos
 Personal Projects
 -----------------
 
+[pytest-patch](https://github.com/megawidget/pytest-patch)
+: An automagic `patch` fixture that can monkeypatch objects directly or by name.
+
+[modulemeta](https://github.com/megawidget/python-module)
+: a `Module` metaclass to turn your classes into modules.
+
+For committed developers, or at least those who definitely ought to be.
+
 [dualshock.pd](https://github.com/megawidget/dualshock.pd)
 :	A Pure Data extension that captures Sony DualShock input and translates it
 	into human-usable form.
@@ -249,31 +257,6 @@ more work to be compatible with .torrent files.
 Also used internally at BitTorrent for viewing and editing bencoded entities
 either manually or in a scripted environment.
 
-[ronin](https://github.com/megawidget/ronin)
-:	A roguelike featuring a hex grid and an innovative FOV algorithm. (*Python*,
-	*Pygame*)
-
-This is in extremely early stages of development but the FOV algorithm is
-complete and demoable.
-
-[Dworkin](https://github.com/megawidget/netrunner-utils)
-:	A deck builder for the card game Android: Netrunner. (*CoffeeScript*,
-	*Ender.js*, *HTML5*)
-
-Features a minimalistic interface, uses local storage for custom decks, and
-allows exporting to tsv as well as OCTGN format that is suitable for online
-play.
-
-[cur](https://github.com/megawidget/cur)
-:	A copypasta detection tool for codebases. (*Python*)
-
-Uses a suffix trie to detect duplicates and generates a code quality report.
-
-[rat trap parts](https://github.com/megawidget/rat_trap_parts)
-:	An anagram-based word game.	(*C++*, *ncurses*)
-
-A cute word game where you try to make new, longer words from prior words by
-rearranging letters and adding any one letter of your choice during each step.
 
 Education
 ---------
