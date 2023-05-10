@@ -2,6 +2,7 @@ Igor Kaplounenko
 ================
 
 > **senior software engineer**
+
 > **author of [pytest-patch](https://pypi.org/project/pytest-patch/) and
   [modulemeta](https://pypi.org/project/modulemeta/)**
 
