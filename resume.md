@@ -3,6 +3,9 @@ Igor Kaplounenko
 
 > **senior software engineer**
 
+> **author of [pytest-patch](https://pypi.org/project/pytest-patch/) and
+  [modulemeta](https://pypi.org/project/modulemeta/)**
+
 -------------------------------------------------------	----------------------
 <https://github.com/megawidget>													<megawidget@gmail.com>
 -------------------------------------------------------	----------------------
@@ -14,26 +17,41 @@ Special Qualifications
 
 *	Python with Tornado, Flask + Connexion
 *	C++17 with STL and Boost
-* CoffeeScript, LiveScript with React, Redux, Immutable.js, Lodash, Bootstrap
+*	CoffeeScript, LiveScript with React or Vue
 
 **Other Technologies**
 
-* TensorFlow, neon
-* OpenAPI
-* Docker, Kubernetes
+*	TensorFlow, neon, nGraph
+*	OpenAPI
+*	Docker, Kubernetes
 *	elliptic curve cryptography, NaCl
 *	SQLite, MySQL, PostgreSQL, Redis
 *	Linux, FreeBSD
-*	AWS S3 and EC2
-* Git
+*	AWS S3, EC2, Lambda
+*	Git
 
 I am familiar with a variety of other languages and technologies as well, but am
-primarily a LiveScript, Python, and C++14 aficionado.
+primarily a LiveScript, Python, and C++17 aficionado.
 
 Work Experience
 ---------------
 
-2016-current
+2020-2023
+:	**Senior Software Engineer** at **Lambda Labs**
+
+* Maintained the web store by adding features and fixing bugs as requested by
+  the sales and finance teams. (*Python*, *PostgreSQL*. *JavaScript*)
+* Refactored the codebase and extended it with tests, style checks, and type
+  hints. (*Python*, *pytest*, *mypy*, *Nox*)
+* Designed and implemented a customizable web-based GUI wrapper for arbitrary
+  command line tools on behalf of **South Park Studios** that was used for
+  their deepfake YouTube series. (*LiveScript*, *Vue*, *Pug*)
+* Implemented lambda cloud monitoring. (*AWS Lambda*, *Python*)
+* Implemented the DGX store pages. (*JavaScript*)
+* Added minor features to the Deep Learning as a Service cloud platform.
+  (*Elixir*)
+
+2016-2020
 :	**Cloud Software Engineer** at **Nervana / Intel**
 
 * Designed and implemented a profiler for Intel's proprietary machine learning
@@ -76,7 +94,7 @@ Work Experience
 * As part of the uTorrent Core team, helped fix bugs in the uTorrent codebase.
 	(*C++*)
 * Implemented features for the SoShare product on both client and server-side.
-	(*C++*, *Javascript*, *Python*, *Tornado*)
+	(*C++*, *JavaScript*, *Python*, *Tornado*)
 * Was one of the core contributors to the daemon component of the chat client
 	Bleep, which functions as a SIP server with a cryptography layer. (*C++11*,
 	*NaCl*, *curve25519*, *ed25519*, *SQLite*)
@@ -97,7 +115,7 @@ Work Experience
 	device. (*ALSA*, *MPG123*, *C*, *C++*)
 *	Ported frotz (a Z-Machine implementation) to an embedded device and
 	implemented a WebKit plugin to interface with it. (*C++*)
-*	Designed and developed a New York Times crossword engine. (*Javascript*)
+*	Designed and developed a New York Times crossword engine. (*JavaScript*)
 *	Engineered a library to dynamically insert ads into publications as they are
 	displayed. (*C++*, *SQLite*)
 *	Collaborated with other teams to integrate libraries and plugins.
@@ -153,7 +171,7 @@ Yahoo Photos
 *	Worked as an embedded devices developer for mipsel architecture routers
 	running a modified version of OpenWRT.
 *	Designed and implemented a buffered HTML parser and editor to be used as a
-	proxy module. (*C*, *Javascript*)
+	proxy module. (*C*, *JavaScript*)
 *	Designed and implemented a URL redirector to be used as a proxy module. (*C*)
 *	Tweaked and optimized an existing proxy. (*C*)
 *	Maintained a Subversion repository as well as a Bugzilla installation.
@@ -209,6 +227,14 @@ Yahoo Photos
 Personal Projects
 -----------------
 
+[pytest-patch](https://github.com/megawidget/pytest-patch)
+: An automagic `patch` fixture that can monkeypatch objects directly or by name.
+
+[modulemeta](https://github.com/megawidget/python-module)
+: a `Module` metaclass to turn your classes into modules.
+
+For committed developers, or at least those who definitely ought to be.
+
 [dualshock.pd](https://github.com/megawidget/dualshock.pd)
 :	A Pure Data extension that captures Sony DualShock input and translates it
 	into human-usable form.
@@ -231,31 +257,6 @@ more work to be compatible with .torrent files.
 Also used internally at BitTorrent for viewing and editing bencoded entities
 either manually or in a scripted environment.
 
-[ronin](https://github.com/megawidget/ronin)
-:	A roguelike featuring a hex grid and an innovative FOV algorithm. (*Python*,
-	*Pygame*)
-
-This is in extremely early stages of development but the FOV algorithm is
-complete and demoable.
-
-[Dworkin](https://github.com/megawidget/netrunner-utils)
-:	A deck builder for the card game Android: Netrunner. (*CoffeeScript*,
-	*Ender.js*, *HTML5*)
-
-Features a minimalistic interface, uses local storage for custom decks, and
-allows exporting to tsv as well as OCTGN format that is suitable for online
-play.
-
-[cur](https://github.com/megawidget/cur)
-:	A copypasta detection tool for codebases. (*Python*)
-
-Uses a suffix trie to detect duplicates and generates a code quality report.
-
-[rat trap parts](https://github.com/megawidget/rat_trap_parts)
-:	An anagram-based word game.	(*C++*, *ncurses*)
-
-A cute word game where you try to make new, longer words from prior words by
-rearranging letters and adding any one letter of your choice during each step.
 
 Education
 ---------

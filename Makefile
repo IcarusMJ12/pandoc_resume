@@ -15,10 +15,6 @@ resume.html: style_chmduquesne.css resume.md
         --from markdown --to html \
         -o resume.html resume.md
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
-
 rtf: resume.rtf
 resume.rtf: resume.md
 	pandoc -s -S resume.md -o resume.rtf
