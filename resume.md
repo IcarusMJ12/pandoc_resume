@@ -40,7 +40,7 @@ Work Experience
 :	**Senior Software Engineer** at **Lambda Labs**
 
 * Maintained the web store by adding features and fixing bugs as requested by
-  the sales and finance teams. (*Python*, *PostgreSQL*. *JavaScript*)
+  the sales and finance teams. (*Python*, *PostgreSQL*, *JavaScript*)
 * Refactored the codebase and extended it with tests, style checks, and type
   hints. (*Python*, *pytest*, *mypy*, *Nox*)
 * Designed and implemented a customizable web-based GUI wrapper for arbitrary
