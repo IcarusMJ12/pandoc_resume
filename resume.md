@@ -6,9 +6,9 @@ Igor Kaplounenko
 > **author of [pytest-patch](https://pypi.org/project/pytest-patch/) and
   [modulemeta](https://pypi.org/project/modulemeta/)**
 
--------------------------------------------------------	----------------------
-<https://github.com/megawidget>													<megawidget@gmail.com>
--------------------------------------------------------	----------------------
+-------------------------------------------------------	-------------------------------
+<https://github.com/IcarusMJ12>													<icarus.aquinas.mj12@gmail.com>
+-------------------------------------------------------	-------------------------------
 
 Special Qualifications
 ----------------------
@@ -227,22 +227,22 @@ Yahoo Photos
 Personal Projects
 -----------------
 
-[pytest-patch](https://github.com/megawidget/pytest-patch)
+[pytest-patch](https://github.com/IcarusMJ12/pytest-patch)
 : An automagic `patch` fixture that can monkeypatch objects directly or by name.
 
-[modulemeta](https://github.com/megawidget/python-module)
+[modulemeta](https://github.com/IcarusMJ12/python-module)
 : a `Module` metaclass to turn your classes into modules.
 
 For committed developers, or at least those who definitely ought to be.
 
-[dualshock.pd](https://github.com/megawidget/dualshock.pd)
+[dualshock.pd](https://github.com/IcarusMJ12/dualshock.pd)
 :	A Pure Data extension that captures Sony DualShock input and translates it
 	into human-usable form.
 
 Comes with a rudimentary AM/FM synthesizer, a duophonic synthesizer, a noise
 synthesizer, and a drumkit.  Fun but not especially practical.
 
-[ebb](https://github.com/megawidget/ebb)
+[ebb](https://github.com/IcarusMJ12/ebb)
 :	the Expressly Better Bencoder! (*C++11*, *Boost PP*)
 
 Used internally at BitTorrent, this is a heavily template-based header-only
@@ -250,7 +250,7 @@ library that simplifies encoding data into a JSON-like format.  Bdecoding is
 also supported and is functional for straightforward data structures, but needs
 more work to be compatible with .torrent files.
 
-[bevel](https://github.com/megawidget/bevel)
+[bevel](https://github.com/IcarusMJ12/bevel)
 :	A multitool for commandline processing of bencoded entities with grep- and
 	sed-like functionality. (*Python*)
 
