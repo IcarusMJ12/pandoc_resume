@@ -1,46 +1,53 @@
-Igor Kaplounenko
-================
+# Igor Kaplounenko
 
 > **senior software engineer**
+
+> `Python` `C++`
+
+----
+
+> Veteran backend software engineer with an emphasis on machine learning --
+> microservices, tooling, and Cython/CPython extensions for machine learning
+> frameworks.
+
+----
 
 > **author of [pytest-patch](https://pypi.org/project/pytest-patch/) and
   [modulemeta](https://pypi.org/project/modulemeta/)**
 
--------------------------------------------------------	-------------------------------
-<https://github.com/IcarusMJ12>													<icarus.aquinas.mj12@gmail.com>
--------------------------------------------------------	-------------------------------
+------------------------------- -------------------------------
+<https://github.com/IcarusMJ12> <icarus.aquinas.mj12@gmail.com>
+------------------------------- -------------------------------
 
-Special Qualifications
-----------------------
+## Special Qualifications
 
 **Languages**
 
-*	Python with Tornado, Flask + Connexion
+*	Python with Tornado, Flask + Connexion, FastAPI
 *	C++17 with STL and Boost
-*	CoffeeScript, LiveScript with React or Vue
+*	CoffeeScript, LiveScript, JavaScript with React or Vue
 
 **Other Technologies**
 
 *	TensorFlow, neon, nGraph
 *	OpenAPI
-*	Docker, Kubernetes
 *	elliptic curve cryptography, NaCl
 *	SQLite, MySQL, PostgreSQL, Redis
-*	Linux, FreeBSD
 *	AWS S3, EC2, Lambda
+*	Docker, Kubernetes
+*	Linux, FreeBSD
 *	Git
 
-I am familiar with a variety of other languages and technologies as well, but am
-primarily a LiveScript, Python, and C++17 aficionado.
 
-Work Experience
----------------
+## Work Experience
 
 2020-2023
 :	**Senior Software Engineer** at **Lambda Labs**
 
-* Maintained the web store by adding features and fixing bugs as requested by
-  the sales and finance teams. (*Python*, *PostgreSQL*, *JavaScript*)
+* Maintained the web store that sells machine learning computers ranging from
+  laptops to rackmount servers. (*Python*, *PostgreSQL*, *JavaScript*)
+* Liaised with the sale and finance teams to extend the store with new
+  features. 
 * Refactored the codebase and extended it with tests, style checks, and type
   hints. (*Python*, *pytest*, *mypy*, *Nox*)
 * Designed and implemented a customizable web-based GUI wrapper for arbitrary
@@ -58,9 +65,10 @@ Work Experience
   chip. (*C++17*)
 * Designed and implemented a microservice for hosting AI chip profiling data.
   (*Python*, *Flask*, *Connexion*)
+* Provided mentoring for a couple of interns.
 * Contributed to the NGraph TensorFlow bridge, including porting to OS X,
   refactoring, implementation of various operations, pip packaging, and the
-  C/C++ API. (*Python*, *C++11*)
+  C/C++ API. (*Cython*, *C++11*)
 * Contributed to the Machine Learning Toolkit, primarily by refactoring the
   CLI to automatically load `argparse` commands from modules via metaclasses.
   (*Python*)
@@ -100,6 +108,7 @@ Work Experience
 	*NaCl*, *curve25519*, *ed25519*, *SQLite*)
 * As part of an Agile team, worked on a number of features and bug fixes in
 	Bleep on Windows, Android, OS X, and iOS.
+* Served in a rotation as a Scrum Master.
 
 2010-2012
 :	**Senior Software Engineer** at **Sony Network Entertainment, Inc.**
@@ -111,17 +120,16 @@ Work Experience
 2008-2010
 :	**Software Engineer** at **Skiff, LLC**
 
-*	Designed and implemented a WebKit plugin for mp3 audio playback on an embedded
-	device. (*ALSA*, *MPG123*, *C*, *C++*)
+*	Designed and implemented a WebKit plugin for mp3 audio playback on our
+  embedded device. (*ALSA*, *MPG123*, *C*, *C++*)
 *	Ported frotz (a Z-Machine implementation) to an embedded device and
 	implemented a WebKit plugin to interface with it. (*C++*)
 *	Designed and developed a New York Times crossword engine. (*JavaScript*)
 *	Engineered a library to dynamically insert ads into publications as they are
 	displayed. (*C++*, *SQLite*)
-*	Collaborated with other teams to integrate libraries and plugins.
 *	Debugged third party Linux drivers that would cause the system to
 	intermittently hang during boot. (*C*)
-*	Ported OProfile to a particular architecture and added support for hardware
+*	Ported OProfile to our particular architecture and added support for hardware
 	timers. (*C*)
 
 2008
@@ -130,8 +138,8 @@ Work Experience
 *	Designed and implemented two server-side applications that poll third party
 	APIs for information and make it accessible to the client-side app over HTTP.
 	(*Python*)
-*	Wrote an administrative API plugin for Openfire XMPP server that allows remote
-	user management and administration.
+*	Wrote an administrative API plugin for Openfire XMPP server that allows
+  remote user management and administration.
 *	Designed and implemented a RESTful API that interfaces a client-side
 	application with a variety of third party services.
 *	Wrote a variety of server administration-related scripts. (*bash*, *Python*)
@@ -144,12 +152,6 @@ Work Experience
 
 2007-2008
 :	**Software Engineer** at **Yahoo**
-
-Yahoo Messenger
-
-*	Designed and implemented an XML API to serve widget metadata to Yahoo
-	Messenger widgets.
-*	Designed database schema for storing widget metadata. (*MySQL*)
 
 Yahoo Photos
 
@@ -165,113 +167,66 @@ Yahoo Photos
 *	Designed and implemented bulk account information retrieval tools. (*bash*,
 	*C++*)
 
+Yahoo Messenger
+
+*	Designed and implemented an XML API to serve widget metadata to Yahoo
+	Messenger widgets.
+*	Designed database schema for storing widget metadata. (*MySQL*)
+
 2006-2007
 :	**Software Engineer** at **AnchorFree**
 
-*	Worked as an embedded devices developer for mipsel architecture routers
-	running a modified version of OpenWRT.
 *	Designed and implemented a buffered HTML parser and editor to be used as a
 	proxy module. (*C*, *JavaScript*)
 *	Designed and implemented a URL redirector to be used as a proxy module. (*C*)
 *	Tweaked and optimized an existing proxy. (*C*)
-*	Maintained a Subversion repository as well as a Bugzilla installation.
 *	Designed and implemented a collection of device registration and monitoring
 	tools. (*C*, *perl*, *bash*)
 *	Ported TCL and Expect libraries to the mips/mipsel architecture.
 *	Designed and developed a remote administration tool based on inverse SSH to
 	enable administration of routers used inside LANs. (*C*, *bash*)
 
-2005-2006
-:	**Software Engineer** at **Coherent Inc.**
 
-*	Worked as a developer for a series of tools that were responsible for
-	extracting data from laser test stations and putting it into the database, as
-	well as making the data accessible via Apache/Tomcat.
-*	Designed and implemented data processing and analysis algorithms for the test
-	stations (*C++*)
-*	Designed and implemented scripts to perform operations on databases.
-	(*Jython*)
-*	Constructed and used Hyperion/Brio reports.
-*	Created scripts for data extraction from the laser testing station. (*Python*)
-*	Set up a MySQL database.
-
-2004-2005
-:	**Software Engineer** at **UCSD Bioengineering**
-
-*	Worked as a developer on an application titled Continuity that modeled hearts
-	in 3D using the finite element method. (*C++*, *C*, *Python*, *OpenGL*,
-	*Fortran*)
-*	Designed and implemented numerical algorithms emulating heart operation in a
-	computer model. (*C*, *Fortran*)
-*	Performed memory usage optimizations for matrix computation algorithms.
-*	Designed and implemented top-level control structures as well as GUI forms for
-	Continuity. (*Python*, *TKinter*)
-*	Ported Continuity from Linux to Windows.
-*	Worked on socket level communication between the client and server side of the
-	application. (*Python*)
-*	Migrated the codebase from CVS to Subversion and restructured the source code.
-
-2003
-:	**Software Engineer** at **Electric Power Research Institute**
-
-*	Worked as a developer on a climate-modeling application COSMIC.
-*	Designed and implemented the GUI for the program.
-*	Troubleshooted and corrected the program's numerical functions.
-
-2003
-:	**Technical Writer** at **Coherent Inc.**
-
-*	Designed and implemented a help system for a laser testing program written in
-	LabView.
-
-Personal Projects
------------------
+## Personal Projects
 
 [pytest-patch](https://github.com/IcarusMJ12/pytest-patch)
-: An automagic `patch` fixture that can monkeypatch objects directly or by name.
+: An automagic `patch` fixture that can monkeypatch objects directly or by
+  name. (*Python*) 
 
 [modulemeta](https://github.com/IcarusMJ12/python-module)
-: a `Module` metaclass to turn your classes into modules.
+: A `Module` metaclass to turn your classes into modules. (*Python*)
+: For committed developers, or at least those who definitely ought to be.
 
-For committed developers, or at least those who definitely ought to be.
-
-[dualshock.pd](https://github.com/IcarusMJ12/dualshock.pd)
-:	A Pure Data extension that captures Sony DualShock input and translates it
-	into human-usable form.
-
-Comes with a rudimentary AM/FM synthesizer, a duophonic synthesizer, a noise
-synthesizer, and a drumkit.  Fun but not especially practical.
+[BetterHotkeys](https://steamcommunity.com/sharedfiles/filedetails/?id=2984665813)
+: A mod for the indie game Barotrauma, currently with over 1200
+  subscribers. (*C#*)
 
 [ebb](https://github.com/IcarusMJ12/ebb)
-:	the Expressly Better Bencoder! (*C++11*, *Boost PP*)
-
-Used internally at BitTorrent, this is a heavily template-based header-only
-library that simplifies encoding data into a JSON-like format.  Bdecoding is
-also supported and is functional for straightforward data structures, but needs
-more work to be compatible with .torrent files.
+:	The Expressly Better Bencoder! (*C++11*, *Boost PP*)
+: Used internally at BitTorrent, this is a heavily template-based header-only
+  library that simplifies encoding data into a JSON-like format.  Bdecoding is
+  also supported and is functional for straightforward data structures.
 
 [bevel](https://github.com/IcarusMJ12/bevel)
 :	A multitool for commandline processing of bencoded entities with grep- and
 	sed-like functionality. (*Python*)
+: Also used internally at BitTorrent for viewing and editing bencoded entities
+  either manually or in a scripted environment.
 
-Also used internally at BitTorrent for viewing and editing bencoded entities
-either manually or in a scripted environment.
+[dualshock.pd](https://github.com/IcarusMJ12/dualshock.pd)
+:	A Pure Data extension that captures Sony DualShock controller input and
+  translates it into human-usable form. (*C++*)
+: Comes with a rudimentary AM/FM synthesizer, a duophonic synthesizer, a noise
+  synthesizer, and a drumkit.
 
 
-Education
----------
+## Education
 
 Major
-:	BA in Computer Science in the Math Department at UCSD
+:	Bachelor of Arts in Mathematics-Computer Science at the University of
+  California San Diego
 
 Minor
 :	Interdisciplinary Computing and the Arts with Music emphasis
-
-*	Completed a Cryptography I course on Coursera as offered by Stanford
-	University.
-*	Over a year's worth of coursework in Digital Signal Processing and Synthesis
-	as it applies to sound, incl. graduate level work. (*Pure Data*, *C*, *C++*)
-*	Familiarity with computer graphics, esp. raytracing and radiosity techniques.
-	(*C++*, *OpenGL*)
 
 > references available upon request
