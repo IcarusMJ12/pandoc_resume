@@ -26,7 +26,7 @@ html: init
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata title="$$PAGE_TITLE";\
+			--metadata pagetitle="$$PAGE_TITLE";\
 	done
 
 docx: init
