@@ -80,6 +80,16 @@ nix build
 
 The built resume will end up in `./result`.
 
+### Gentoo
+
+Add `context` to `/etc/portage/make.conf`'s `USE`.
+
+```xonsh
+sudo emerge virtual/pandoc texlive
+$TEXMF = '/usr/share/texmf-dist'
+```
+
+
 ### Troubleshooting
 
 #### Get versions

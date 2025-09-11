@@ -41,6 +41,14 @@
 
 ## Work Experience
 
+2025-
+:   **CEO And Physical Embodiment Of** at **Keeping My Resume Up To Date, I Mean, Web3 Senior Healthcare And Dating Stealth Startup Leveraging Artificial Intelligence On The Blockchain, LLC**
+
+* Keeping my resume up to date
+* Even now, the resume, it is still up to date
+* Please, I beg you, I'll do anything, just stop asking if my resume is up to
+  date
+
 2020-2023
 :	**Senior Software Engineer** at **Lambda Labs**
 
