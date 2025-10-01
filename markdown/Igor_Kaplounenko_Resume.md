@@ -25,7 +25,7 @@
 
 *	Python with Tornado, Flask + Connexion, FastAPI
 *	C++17 with STL and Boost
-*	CoffeeScript, LiveScript, JavaScript with React or Vue
+*	Civet, CoffeeScript, LiveScript, JavaScript with React or Vue
 
 **Other Technologies**
 
@@ -40,6 +40,14 @@
 
 
 ## Work Experience
+
+2025-2025
+:   **Senior Software Engineer** at **U.S. Department of Government Efficiency**
+
+* Designed and implemented a website -- backend and frontend included -- that
+  pulls legal documents and their metadata from the Code of Federal Regulations
+  through their REST API, provides metrics, and collates them by department.
+  (*Python*, *Civet*, *Stylus*)
 
 2020-2023
 :	**Senior Software Engineer** at **Lambda Labs**
